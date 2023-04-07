@@ -1,0 +1,266 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.hotline {
+    position: relative;
+    width: 100%;
+    height: 453px;
+    background-image: url(https://thuexetulaisaigon.vn/wp-content/themes/thuexetulai/images/page-title-background.jpg);
+}
+.hotline h2 {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    top: 30%;
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+	font-family: 'Merriweather';
+}
+.hotline h3 {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    top: 55%;
+    padding: 0;
+    margin: 0;
+    color: #a6dde8;
+	font-family: 'Merriweather';
+  font-size: 2.5em;
+    text-align: center;
+}
+.wrapper {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	font-family: 'Merriweather';
+	font-size: 1.1em;
+}
+.box {
+	margin: 50px;
+}
+
+.box ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box ul li{
+	margin-bottom: 20px;
+}
+
+.mgR{
+	margin-right: 10px;
+}
+
+.map {
+	margin: 50px;
+}
+.title {
+	text-align: center;
+	color: #A06056;
+	font-size: 1.5em;
+	font-family: 'Merriweather';
+
+}
+.box div{
+	display: flex;
+	margin: 20px;
+}
+.map {
+    top: 630px;
+    right: 200px;
+}
+a{
+	list-style: none;
+}
+/* footer */
+.footer {
+	position: relative;
+	background: #F3EEE8;
+}
+
+.footer-menu {
+	display: flex;
+	margin: 0 auto;
+	padding: 40px 0;
+	width: 80%;
+    justify-content: space-around;
+}
+
+.head-menu {
+	width: 350px;
+	height: 25px;
+	padding-right: 20px;
+}
+
+.antic a {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 34px;
+	line-height: 25px;
+	letter-spacing: 2px;
+	color: #534B42;
+
+}
+
+.row{
+    width: 20%;
+    padding-right: 20px;
+}
+
+/* h1 cua cot */
+.head-row {
+
+	padding-bottom: 30px;
+	
+}
+
+.head-row span {
+	font-family: 'Varta';
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 30px;
+	color: #3f3a33;
+	border-bottom: 5px solid #A06056;
+}
+
+ul {
+	list-style: none;
+}
+
+/* cac row */
+
+.content-row ul li {
+	list-style-type: circle;
+	padding-bottom: 30px;
+	font-family: 'Varta';
+	color: #706458;
+	
+}
+
+
+.content-row ul li a {
+	
+	font-family: 'Varta';
+	color: #706458;
+	border-bottom: 0.5px solid #a060566a;
+    cursor: pointer;
+}
+
+.content-row span {
+	font-family: Varta;
+	font-size: 16px;
+    padding-bottom: 10px;
+	color: #706458;
+}
+
+
+/* row cuoi cung */
+.other {
+	width: 235px;
+}
+
+
+.p {
+	padding-bottom: 20px;
+	font-family: 'Varta';
+	line-height: 35px;
+	color: #706458;
+}
+
+.learn-more {
+	display: inline-block;
+	text-align: left;
+	color: #A06056;
+	border: none;
+	background: transparent;
+
+}
+
+/* end row */
+
+.size {
+	height: 10px;
+	width: 6px;
+	left: 7px;
+	top: 5px;
+	border-radius: 0px;
+	font-size: 10px;
+}
+
+
+.icon {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 32px;
+	padding: 20px 0;
+}
+
+.sub-icon {
+	height: 32px;
+	width: 32px;
+	color: #706458E5;
+	font-size: 25px;
+}
+
+.finally {
+	border-top: 5px solid #A06056;
+	margin: 20px 150px;
+}
+
+.finally-1 {
+	width: 100%;
+	display: flex;
+	padding: 20px 150px 64px;
+}
+
+/* ndung footer */
+
+.text-fin {
+	font-family: Varta;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: #706458B2;
+	opacity: 0.7;
+	float: left;
+
+
+}
+
+/* list footer */
+
+.list-fin {
+	display: flex;
+	flex-direction: row;
+	font-family: Varta;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0px;
+	text-align: left;
+	color: #706458B2;
+	opacity: 0.7;
+	margin-left: auto;
+
+}
+
+
+.pd-30 {
+	padding-right: 30px;
+}
+
+.pd-left {
+	padding-left: 160px;
+}
+
+
+

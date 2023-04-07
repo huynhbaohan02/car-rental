@@ -1,0 +1,185 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   border: 0;
+}
+
+body {
+   font-family: Merriweather;
+   background-color: #FFFF;
+}
+
+a{
+   text-decoration: none;
+}
+
+
+.header__main {
+   width: 100%;
+   display: flex;
+   padding: 60px 80px;
+   align-items: center;
+}
+
+
+.header__main img {
+   width: 50%;
+   object-fit: cover;
+   display: flex;
+   margin: auto;
+}
+
+.header__content {
+   width: 50%;
+}
+
+.header__content h1 {
+   /* font-family: Varta; */
+   font-family: Merriweather;
+   font-size: 50px;
+   font-weight: 700;
+   line-height: 57px;
+   padding-bottom: 12px;
+   text-align: left;
+   color: #A06056;
+}
+
+.header__content p {
+   font-family: Varta;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 40px;
+   padding-bottom: 12px;
+   text-align: justify;
+}
+
+.header__content a {
+   font-family: Varta;
+   font-size: 28px;
+   font-weight: 500;
+   line-height: 40px;
+   text-decoration: none;
+   color: #A06056;
+}
+
+.header__content a:hover i {
+   animation: translateX 1s ease infinite;
+}
+
+
+/* section */
+.section__rent {
+   padding: 48px 80px 12px;
+
+}
+
+.section__title {
+   background-color: #F3EEE8;
+   text-align: center;
+   padding-left: 80px;
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 57px;
+   font-family: Merriweather;
+   margin-bottom: 32px;
+   color: #A06056;
+}
+
+.section__list {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+}
+
+.section__item {
+   width: calc(100%/2);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 24px;
+   font-family: Merriweather;
+}
+
+.section__item--img {
+   width: 500px;
+   height: 350px;
+   object-fit: cover;
+   border-radius: 12px;
+   margin-bottom: 12px;
+}
+
+.section__item--name {
+   font-size: 26px;
+   font-family: Varta;
+   text-transform: capitalize;
+   margin-bottom: 8px;
+   color: #A06056;
+}
+
+.section__item--content {
+   width: 60%;
+   margin-bottom: 8px;
+   display: flex;
+   /* padding-left: 12px; */
+   justify-content: space-between;
+   align-items: center;
+   font-size: 16px;
+   font-family: Varta;
+   padding-left: 80px;
+   color: #706458;
+
+}
+
+.section__item--icon {
+   font-family: Varta;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 40px;
+   text-decoration: none;
+   color: #A06056;
+   text-align: center;
+   cursor: pointer;
+}
+
+
+.evaluate {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.eva-top {
+	font-family: 'Merriweather';
+	color: #000;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.eva-bottom {
+	display: flex;
+}
+
+.col-eva {
+	margin-left: 100px;
+}
+
+.star {
+	color: #bb7166;
+	padding-bottom: 10px;
+}
+
+.col-eva span {
+	font-family: 'Varta';
+   font-style: 14px;
+	color: #534B42;
+}
+
+.col-eva h5 {
+	padding-top: 10px;
+	font-family: 'Varta';
+	font-weight: 900;
+
+}

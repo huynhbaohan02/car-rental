@@ -1,0 +1,165 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   border: 0;
+}
+
+body {
+   background-color: #FFFF;
+}
+
+.header__main {
+   width: 100%;
+   display: flex;
+   padding: 60px 80px;
+   align-items: center;
+}
+
+
+.header__main img {
+   width: 50%;
+   object-fit: cover;
+   display: flex;
+   margin: auto;
+}
+
+.header__content {
+   width: 50%;
+}
+
+.header__content h1 {
+   /* font-family: Varta; */
+   font-family: Merriweather;
+   font-size: 50px;
+   font-weight: 700;
+   line-height: 57px;
+   padding-bottom: 12px;
+   text-align: left;
+   color: #A06056;
+}
+
+.header__content p {
+   font-family: Varta;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 40px;
+   padding-bottom: 12px;
+   text-align: justify;
+}
+
+.header__content a {
+   font-family: Varta;
+   font-size: 28px;
+   font-weight: 500;
+   line-height: 40px;
+   text-decoration: none;
+   color: #A06056;
+}
+
+.header__content a:hover i {
+   animation: translateX 1s ease infinite;
+}
+
+
+/* section__warning */
+.section__warning{
+   width: 100%;
+   display: flex;
+   padding: 60px 80px;
+   align-items: center;
+   background-color: #F3EEE8;
+}
+.section__warning h1 {
+   font-family: Merriweather;
+   font-size: 26px;
+   font-weight: 700;
+   line-height: 57px;
+   padding: 0 20px 12px 0;
+   color: #A06056;
+}
+.section__warning p {
+   font-family: Varta;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 40px;
+   color: #534B42;
+   
+}
+
+.price {
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.price-top {
+	padding: 20px 0;
+}
+
+.price-top h1 {
+	font-family: 'Merriweather';
+	font-weight: 600;
+	font-size: 24px;
+	color: #A06056;
+}
+
+.price-middle {
+	padding-bottom: 20px;
+}
+
+.price-middle span {
+	font-family: 'Varta';
+	color: #534B42;
+	font-style: 16px;
+}
+
+.price-bottom {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.car {
+	padding-bottom: 20px;
+	width: 30%;
+}
+
+
+.car h3 {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.car ul li {
+	padding-bottom: 5px;
+	color: #534B42;
+}
+
+.car img{
+	border-radius: 40px;
+	transition: transform .4s; /* Animation */
+}
+
+/* .car img:hover{
+	transform: scale(0.5);
+} */
+
+
+.btn-price {
+	margin: 10px 0 0 90px;
+	color: #ffff;
+	width: 100px;
+	height: 25px;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 1px solid #A06056;
+	background: #A06056;
+
+}
+
+.btn-price:hover {
+	background: transparent;
+	color: #A06056;
+	border: 1px solid #A06056;
+	transition: background-color 0.1s linear;
+}
